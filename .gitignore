@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Artifacts & media (large files)
+artifacts/
+*.mp4
+*.wav
+*.webm
+*.mkv
+*.m4a
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+tests/test.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# Alembic
+migrations/versions/*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
